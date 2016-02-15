@@ -1,0 +1,12 @@
+jacob.Username
+Passed.pregame
+0.currentStage
+1060.playerXp
+Swamp.playerLocation
+0.dHome
+2.dHurlain
+1.dTown
+1.dSwamp
+0.dCave
+16.enemiesDefeated
+6.perfectBlocks

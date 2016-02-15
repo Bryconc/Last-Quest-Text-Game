@@ -1,0 +1,12 @@
+Brycon.Username
+Passed.pregame
+0.currentStage
+475.playerXp
+Swamp.playerLocation
+0.dHome
+2.dHurlain
+1.dTown
+1.dSwamp
+0.dCave
+2.enemiesDefeated
+1.perfectBlocks
