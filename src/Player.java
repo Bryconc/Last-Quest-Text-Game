@@ -1,4 +1,6 @@
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Player {
@@ -17,6 +19,7 @@ public class Player {
 	public static int[] loc = { 0, 0, 0, 0, 0 };
 	
 	public static void getFileDirectory(){
+		/*directory = "";
 		for(int i = 0; i < 26; i++){
 			char n = (char)('A'+i);
 			File file = new File(n+":/Senior Project");
@@ -32,6 +35,13 @@ public class Player {
 		else {
 			System.out.println("Directory found on "+directory);
 			profileDirectory = directory + "Senior Project/profiles/";
+		}*/
+		try {
+			Path path = Paths.get(Player.class.getResource(".").toURI());
+			profileDirectory = path.getParent().toString() + "/profiles/";
+			System.out.println("Directory found on "+directory);
+		} catch (Exception e) {
+			System.out.println("Couldn't find parent directory");
 		}
 	}
 	                     
