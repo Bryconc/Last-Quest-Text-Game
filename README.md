@@ -3,6 +3,4 @@ Text adventure game
 
 Video:
 
-<iframe width="420" height="315"
-src="http://www.youtube.com/embed/UljR8H1xdv8">
-</iframe>
+[![Demonstration Video for Program](http://img.youtube.com/vi/UljR8H1xdv8/0.jpg)](https://www.youtube.com/watch?v=UljR8H1xdv8)
